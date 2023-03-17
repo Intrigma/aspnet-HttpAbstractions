@@ -4,7 +4,7 @@
 using System;
 using System.Globalization;
 using System.Runtime.CompilerServices;
-using Microsoft.Extensions.Primitives;
+using Internals.Microsoft.Extensions.Primitives;
 
 namespace Microsoft.Net.Http.Headers
 {

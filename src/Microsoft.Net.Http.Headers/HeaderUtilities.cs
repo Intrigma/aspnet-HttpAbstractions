@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Diagnostics.Contracts;
 using System.Globalization;
 using Microsoft.Extensions.Primitives;
+using InplaceStringBuilder = Internals.Microsoft.Extensions.Primitives.InplaceStringBuilder;
 
 namespace Microsoft.Net.Http.Headers
 {
