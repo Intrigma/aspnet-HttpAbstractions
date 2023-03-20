@@ -12,7 +12,7 @@
     <MicrosoftExtensionsLoggingAbstractionsPackageVersion>2.2.0-preview3-35425</MicrosoftExtensionsLoggingAbstractionsPackageVersion>
     <MicrosoftExtensionsObjectPoolPackageVersion>2.2.0-preview3-35425</MicrosoftExtensionsObjectPoolPackageVersion>
     <MicrosoftExtensionsOptionsPackageVersion>2.2.0-preview3-35425</MicrosoftExtensionsOptionsPackageVersion>
-    <MicrosoftExtensionsPrimitivesPackageVersion>2.2.0</MicrosoftExtensionsPrimitivesPackageVersion>
+    <MicrosoftExtensionsPrimitivesPackageVersion Condition=" '$(MicrosoftExtensionsPrimitivesPackageVersion)' == '' ">2.2.0</MicrosoftExtensionsPrimitivesPackageVersion>
     <MicrosoftExtensionsWebEncodersSourcesPackageVersion>2.2.0-preview3-35425</MicrosoftExtensionsWebEncodersSourcesPackageVersion>
     <MicrosoftNETCoreApp20PackageVersion>2.0.9</MicrosoftNETCoreApp20PackageVersion>
     <MicrosoftNETCoreApp21PackageVersion>2.1.3</MicrosoftNETCoreApp21PackageVersion>
@@ -20,7 +20,7 @@
     <MicrosoftNETTestSdkPackageVersion>15.6.1</MicrosoftNETTestSdkPackageVersion>
     <MoqPackageVersion>4.7.49</MoqPackageVersion>
     <NETStandardLibrary20PackageVersion>2.0.3</NETStandardLibrary20PackageVersion>
-    <SystemBuffersPackageVersion>4.5.0</SystemBuffersPackageVersion>
+    <SystemBuffersPackageVersion Condition=" '$(SystemBuffersPackageVersion)' == '' ">4.5.0</SystemBuffersPackageVersion>
     <SystemTextEncodingsWebPackageVersion>4.5.0</SystemTextEncodingsWebPackageVersion>
     <XunitAnalyzersPackageVersion>0.10.0</XunitAnalyzersPackageVersion>
     <XunitPackageVersion>2.3.1</XunitPackageVersion>
